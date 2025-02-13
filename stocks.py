@@ -1,4 +1,7 @@
 import streamlit as st 
+import appdirs as ad
+ad.user_cache_dir = lambda *args: "/tmp"
+
 from datetime import date
 import yfinance
 from prophet import Prophet
