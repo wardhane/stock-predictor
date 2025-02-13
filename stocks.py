@@ -9,3 +9,4 @@ from prophet.plot import plot_plotly
 from plotly import graph_objs as go
 
 st.title('Stock :bow_and_arrow: Series Forecasting with Prophet')
+
