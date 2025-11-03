@@ -37,4 +37,4 @@ jobs:
         # pip install -r requirements.txt          
     # Step 4: Run the Python script
     - name: Run script
-      run: python script.py
+      run: python stocks.py
